@@ -133,5 +133,17 @@
         projectsIsotope.isotope({filter: $(this).data('filter')});
     });
     
+    // equipment isotope and filter
+    var equipmentIsotope = $('.equipment-container').isotope({
+        itemSelector: '.equipment-item',
+        layoutMode: 'fitRows'
+    });
+
+    $('#equipment-flters li').on('click', function () {
+        $("#equipment-flters li").removeClass('filter-active');
+        $(this).addClass('filter-active');
+
+        equipmentIsotope.isotope({filter: $(this).data('filter')});
+    });
 })(jQuery);
 

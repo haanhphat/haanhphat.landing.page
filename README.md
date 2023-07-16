@@ -1,4 +1,4 @@
-  =>  Template Name    : HÀ ANH PHÁT - Công ty TNHH thiết bị xây dựng
+  =>  Template Name    : Hà Anh Phát - CÔNG TY TNHH THIẾT BỊ XÂY DỰNG
 
   =>  Template Link    : https://haanhphat.com
 
